@@ -8,7 +8,7 @@ Built with **[Flower](https://flower.ai/)** + **PyTorch**. Class-incremental tas
 
 ---
 
-## What this repository does
+## What this repository does here
 
 Each client trains a small CNN on **two sequential class-incremental tasks** (first half of classes, then the second half), without sharing raw data. The server aggregates with FedAvg every round. Two methods are compared:
 
